@@ -30,32 +30,49 @@
 
   <body>
     
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navbar">
   <div class="container">
     <a class="navbar-brand" href="#">CMSC388J</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
       <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+        <li class="nav-item"><a class="nav-link disabled">Quick Links:</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="https://piazza.com/class/kk2vwswtfcw2n6">Piazza</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="./s21syl.pdf">Syllabus</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="https://github.com/CMSC388J">Github</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<header class="course-header">
-    <h1 class="container">Building Secure Web Applications with Python and Flask</h1>
-</header>
+<header class="course-header"></header>
 
 <main class="container">
 
+    <!-- INTRO SECTION -->
+    <div class="card my-4">
+      <div class="card-header">
+        <h1>Building Secure Web Applications with Python and Flask</h1>
+      </div>
+      <div class="card-body">
+            <p class="card-text">
+              This course is an introduction to building secure, full-stack web applications with Python and Flask.
+              We'll start with Python and Flask, and then subsequent weeks will cover how to add Flask extensions
+              to your applications to implement common web app functionalities, how to protect your website from bad
+              actors, and more! At the end of the course, you'll be able to deploy your own web app for the world to see.
+            </p>
+        </div>
+    </div>
+
     <!-- SCHEDULE SECTION -->
+    <a id="schedule" class="anchor"></a>
     <div class="card my-4">
         <div class="card-body">
             <div class="card-title">
@@ -124,6 +141,7 @@
     </div>
 
     <!-- PROJECTS SECTION -->
+    <a id="projects" class="anchor"></a>
     <div class="card my-4">
         <div class="card-body">
             <div class="card-title">
@@ -137,14 +155,15 @@
     </div>
 
     <!-- CONTACT SECTION -->
-    <div class="card my-4">
+    <a id="contact" class="anchor"></a>
+    <div class="card my-4" id="contact">
         <div class="card-body">
             <div class="card-title">
                 <h2>Course Details</h2><hr>
             </div>
             <p class="card-text">
-                <a href="">ELMS</a> will be used for project submissions. <br>
-                <a href="">Piazza</a> will be used for course communication. <br><br>
+                <b>ELMS</b> will be used for project submissions. <br>
+                <a href="https://piazza.com/class/kk2vwswtfcw2n6">Piazza</a> will be used for course communication. <br><br>
                 
                 Please use Piazza as your primary communication with the course staff, 
                 we'll get back to you the quickest on Piazza. If you absolutely cannot 
@@ -172,19 +191,21 @@
 
             <h4>Course Evaluations</h4>
             <p class="card-text">
-                This is some sample text.
+              If you have a suggestion for improving this class, don't hesitate to tell the instructor or TAs during the semester. At the end of the semester, please don't forget to provide your feedback using the campus-wide CourseEvalUM system. Your comments will help make this class better.
             </p>
             <h4>Excused Absence and Academic Accommodations</h4>
             <p class="card-text">
-                This is some sample text.
+              See the section titled "Attendance, Absences, or Missed Assignments" available at <a href="http://www.ugst.umd.edu/courserelatedpolicies.html">Course Related Policies.</a>
             </p>
             <h4>Disability Support Accommodations</h4>
             <p class="card-text">
-                This is some sample text.
+              See the section titled "Accessibility" available at <a href="http://www.ugst.umd.edu/courserelatedpolicies.html">Course Related Policies.</a>
             </p>
             <h4>Academic Integrity</h4>
             <p class="card-text">
-                This is some sample text.
+              Note that academic dishonesty includes not only cheating, fabrication, and plagiarism, but also includes helping other students commit acts of academic dishonesty by allowing them to obtain copies of your work. In short, all submitted work must be your own. Cases of academic dishonesty will be pursued to the fullest extent possible as stipulated by the <a href="http://osc.umd.edu/OSC/Default.aspx">Office of Student Conduct</a>.
+              <br>
+              It is very important for you to be aware of the consequences of cheating, fabrication, facilitation, and plagiarism. For more information on the Code of Academic Integrity or the Student Honor Council, please visit <a href="http://www.shc.umd.edu">http://www.shc.umd.edu</a>.
             </p>
 
         </div>
